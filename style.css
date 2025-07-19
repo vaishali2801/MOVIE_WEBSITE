@@ -1,0 +1,22 @@
+.ri-map-pin-line{
+    color: #6745f0;
+}
+.logo{
+     transform: translateY(-12px);
+     font-size: 28px;
+}
+.text-gray{
+    color: #808080;
+}
+.hover-1:hover{
+    border: none;
+}
+input{
+    width:100%;
+}
+.ri-user-line{
+    color: white;
+}
+.bg-gray{
+    background-color:#D1D5DB!important;
+}
