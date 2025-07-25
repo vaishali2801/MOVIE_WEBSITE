@@ -140,6 +140,7 @@ input {
 .slidebtns {
   display: flex;
   gap: 10px;
+  float: right;
   justify-content: space-between;
 }
 
@@ -149,10 +150,12 @@ input {
 
 .swiper-button-next:after {
   display: none;
+ 
 }
 
 .swiper-button-prev:after {
   display: none;
+  
 }
 
 .text-green {
@@ -165,4 +168,8 @@ input {
 
 .bg-grad {
   background-image: linear-gradient();
+}
+.bg-purple{
+  /* background-color: #EFEBFF !important; */
+  background-image: linear-gradient(#f6f4ff,#F5F3FF,#EFEBFF) !important;
 }
