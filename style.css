@@ -138,3 +138,21 @@ input {
   /* background-color: #EFEBFF !important; */
   background-image: linear-gradient(#f6f4ff,#F5F3FF,#EFEBFF) !important;
 }
+.nav {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* For large screens (lg: ≥992px), use flex-row */
+@media (min-width: 992px) {
+  .nav {
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+  }
+}
+.border-gray{
+  border:1px solid  #77777E;
+}
+.wid{
+  max-width: 1500px;
+}
