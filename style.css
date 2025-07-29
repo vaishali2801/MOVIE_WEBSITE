@@ -156,3 +156,16 @@ input {
 .wid{
   max-width: 1500px;
 }
+.slick-next:before {
+    content: '→';
+    position: relative;
+    left: -125%;
+    right: 0;
+}
+.slick-prev:before {
+    content: '→';
+    position: relative;
+    right: 0;
+    left: 40%;
+   
+}
