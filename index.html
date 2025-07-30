@@ -18,8 +18,32 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Borel&family=Bree+Serif&family=Dancing+Script:wght@400..700&family=Flamenco:wght@300;400&family=Geologica:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Righteous&display=swap"
         rel="stylesheet">
+</head>
 
 <body class="bg-purple">
+    <!--====================================================== offcanvas =================================================== -->
+    <section>
+        <!-- Vertically centered modal -->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="card">
+                        <img src="./img/bg1.avif" class="card-img-top p-0 m-0" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="card-title be-vietnam-pro-bold">Enter your mobile number</h4>
+                            <p class="card-text">If you don't have an account yet, we'll create one for you</p>
+                            <a href="#" >
+                                <div class="btn bg-dark text-light">
+                                    Continue
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- =================================================== navbar section ================================================ -->
     <section>
         <nav class="navbar navbar-expand-lg border border-end-0 bg-light">
@@ -40,11 +64,6 @@
                         </div>
                     </a>
                 </div>
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
                 <div class="navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav d-md-flex flex-row justify-content-between  mb-2 mb-lg-2"
                         style="margin: auto;">
@@ -86,8 +105,15 @@
                                 placeholder="Search for events, movies and restaurants" aria-label="Username"
                                 aria-describedby="basic-addon1">
                         </div>
-                        <button class="btn bg-gray rounded-circle " style="width: 42px;height: 42px;"><i
-                                class="ri-user-line"></i></button>
+                        <!-- <button  data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvas" aria-controls="offcanvasExample" role="button">
+                          
+                        </button> -->
+                        <button data-bs-toggle="modal" data-bs-target="#modal1" type="button"
+                            class="btn bg-gray rounded-circle" style="width: 42px;height: 42px;">
+                            <i class="ri-user-line"></i>
+                        </button>
+
                     </form>
                 </div>
             </div>
@@ -1033,17 +1059,18 @@
         </div>
     </section>
     <footer class="bg-dark pt-5 mt-5">
-        <div class="container-fluid" >
+        <div class="container-fluid">
             <div class="row align-items-center pb-5">
                 <div class="col-12 pt-4 col-lg-3">
-                   <div class="d-flex justify-content-center">
-                     <img src="./img/zorko.svg" style="height: 50px;" class="">
-                   </div>
+                    <div class="d-flex justify-content-center">
+                        <img src="./img/zorko.svg" style="height: 50px;" class="">
+                    </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                   <ul class="nav pt-4">
-                        <li class="nav-item" >
-                            <a class="nav-link active text-light be-vietnam-pro-medium" aria-current="page" href="#">Terms & Conditions</a>
+                    <ul class="nav pt-4">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light be-vietnam-pro-medium" aria-current="page"
+                                href="#">Terms & Conditions</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light be-vietnam-pro-medium" href="#">Privacy Policy</a>
@@ -1054,36 +1081,38 @@
                         <li class="nav-item">
                             <a class="nav-link text-light be-vietnam-pro-medium" href="#">List your events</a>
                         </li>
-                    </ul>   
-                    
+                    </ul>
+
                 </div>
-                 <div class="col-12 pt-4 col-lg-3 py-5 ">
-                      <p class="text-gray fs-6 be-vietnam-pro-regular">Download the app</p>
-                  <div class="d-flex gap-2 flex-wrap">
-                      <img src="./img/app.webp" style="height: 50px;" class="">
-                      <img src="./img/google.avif" style="height: 50px;" class="">
-                  </div>
+                <div class="col-12 pt-4 col-lg-3 py-5 ">
+                    <p class="text-gray fs-6 be-vietnam-pro-regular">Download the app</p>
+                    <div class="d-flex gap-2 flex-wrap">
+                        <img src="./img/app.webp" style="height: 50px;" class="">
+                        <img src="./img/google.avif" style="height: 50px;" class="">
+                    </div>
                 </div>
             </div>
-           <div class="container-fluid">
-             <div class="border-gray"></div>
-           </div>
+            <div class="container-fluid">
+                <div class="border-gray"></div>
+            </div>
             <div class="row pb-3">
                 <div class="col-12 col-md-12 col-lg-10">
-                   <div class="wid mx-3">
-                     <p class="text-gray pt-3">By accessing this page, you confirm that you have read, understood, and agreed to our Terms of Service, Cookie Policy, Privacy Policy, and Content Guidelines. All rights reserved.</p>
-                   </div>
+                    <div class="wid mx-3">
+                        <p class="text-gray pt-3">By accessing this page, you confirm that you have read, understood,
+                            and agreed to our Terms of Service, Cookie Policy, Privacy Policy, and Content Guidelines.
+                            All rights reserved.</p>
+                    </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-2 pt-2">
-                  <div class="d-flex gap-2">
-                      <i class="ri-whatsapp-line text-light fs-3"></i>
-                      <i class="ri-facebook-circle-fill text-light fs-3"></i>
-                      <i class="ri-instagram-line text-light fs-3"></i>
-                      <i class="ri-twitter-x-line text-light fs-3"></i>
-                      <i class="ri-youtube-fill text-light fs-3"></i>
+                    <div class="d-flex gap-2">
+                        <i class="ri-whatsapp-line text-light fs-3"></i>
+                        <i class="ri-facebook-circle-fill text-light fs-3"></i>
+                        <i class="ri-instagram-line text-light fs-3"></i>
+                        <i class="ri-twitter-x-line text-light fs-3"></i>
+                        <i class="ri-youtube-fill text-light fs-3"></i>
 
 
-                  </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1165,4 +1194,5 @@
         ]
     });
 </script>
+
 </html>
