@@ -23,17 +23,38 @@
 <body class="bg-purple">
     <!--====================================================== offcanvas =================================================== -->
     <section>
-        <!-- Vertically centered modal -->
         <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="card">
-                        <img src="./img/bg1.avif" class="card-img-top p-0 m-0" alt="...">
-                        <div class="card-body text-center">
+                        <img src="./img/bg1.avif" class="card-img-top p-0 m-0 pb-3" alt="...">
+                        <div class="card-body text-center p-5 px-4">
                             <h4 class="card-title be-vietnam-pro-bold">Enter your mobile number</h4>
                             <p class="card-text">If you don't have an account yet, we'll create one for you</p>
-                            <a href="#" >
-                                <div class="btn bg-dark text-light">
+                            <div class="d-flex justify-content-center gap-2">
+                                <select class="form-select" aria-label="Default select example"
+                                    style="height: 41px;width: 110px;">
+                                    <option selected>india +91</option>
+                                    <option value="1">UAE +971</option>
+                                    <option value="2">Australia +61</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                    <option value="3">Austria +43</option>
+                                </select>
+                                 <input type="text" class="form-control" style="width: 65%;" placeholder="Enter Mobile Number" aria-label="Username" aria-describedby="basic-addon1"></div>
+                            </div>
+                            <a href="#">
+                                <div class="btn bg-dark text-light" style="width: 85%;">
                                     Continue
                                 </div>
                             </a>
@@ -644,7 +665,6 @@
             <div class="col-12">
                 <h1 class="fs-4 fw-bold-1 pb-3 be-vietnam-pro-semibold ">Discover the best of Music Events</h1>
             </div>
-
             <div class="responsive">
                 <div class="box" style="margin-right: 20px;">
                     <div class="card rounded-4 shadow-gray align-start" style="height: 568px;">
@@ -876,7 +896,6 @@
                             <h4 class="fs-6 be-vietnam-pro-semibold mt-2">Radhika Das</h4>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -1058,6 +1077,7 @@
             </div>
         </div>
     </section>
+    <!-- ================================================footer ================================================================ -->
     <footer class="bg-dark pt-5 mt-5">
         <div class="container-fluid">
             <div class="row align-items-center pb-5">
@@ -1104,14 +1124,12 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-2 pt-2">
-                    <div class="d-flex gap-2">
-                        <i class="ri-whatsapp-line text-light fs-3"></i>
-                        <i class="ri-facebook-circle-fill text-light fs-3"></i>
-                        <i class="ri-instagram-line text-light fs-3"></i>
-                        <i class="ri-twitter-x-line text-light fs-3"></i>
-                        <i class="ri-youtube-fill text-light fs-3"></i>
-
-
+                    <div class="d-flex gap-2 justify-content-center">
+                        <i class="ri-whatsapp-line text-light fs-2"></i>
+                        <i class="ri-facebook-circle-fill text-light fs-2"></i>
+                        <i class="ri-instagram-line text-light fs-2"></i>
+                        <i class="ri-twitter-x-line text-light fs-2"></i>
+                        <i class="ri-youtube-fill text-light fs-2"></i>
                     </div>
                 </div>
             </div>
@@ -1121,6 +1139,7 @@
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <script>
     $('.responsive').slick({
         speed: 400,
@@ -1160,6 +1179,7 @@
         speed: 300,
         slidesToShow: 6,
         slidesToScroll: 1,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 1199,

@@ -58,13 +58,6 @@ input {
 .fs-7 {
   font-size: 14px;
 }
-
-.be-vietnam-pro-thin {
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
 .be-vietnam-pro-extralight {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 200;
@@ -101,17 +94,7 @@ input {
   font-style: normal;
 }
 
-.be-vietnam-pro-extrabold {
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
 
-.be-vietnam-pro-black {
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
 
 @media(min-width:300px) {
   .d-md-none {
