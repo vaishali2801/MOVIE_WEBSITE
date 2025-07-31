@@ -1,60 +1,50 @@
 body {
   position: relative;
 }
-
 .ri-map-pin-line {
   color: #6745f0;
 }
-
 .logo {
   transform: translateY(-12px);
   font-size: 28px;
 }
-
 .text-gray {
   color: #808080;
 }
-
 .hover-1:hover {
   border: none;
 }
-
 input {
   width: 100%;
 }
-
 .ri-user-line {
   color: white;
 }
-
 .bg-gray {
   background-color: #D1D5DB !important;
 }
-
 .text-p {
   color: #3B3B3F;
 }
-
 .ri-search-line {
   color: #6b46ff;
   font-size: 19px;
-
 }
-
-.nav-link .btn:hover {
+.modal-body {
+  max-height: calc(100vh - 200px); /* Adjust based on header/footer height */
+  overflow-y: scroll;
+  overflow-x:hidden;
+}
+.nav-link .btn-h:hover {
   background-color: #EAE5FF;
   color: #000000;
 }
-
 .fw-bold-1 {
   font-weight: 600;
 }
-
 .shadow-gray {
-  /* border: 1px solid #8f8f8f93; */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, ) 0px 1px 2px 0px;
 }
-
 .fs-7 {
   font-size: 14px;
 }
@@ -63,39 +53,31 @@ input {
   font-weight: 200;
   font-style: normal;
 }
-
 .be-vietnam-pro-light {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
-
 .be-vietnam-pro-regular {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
 .be-vietnam-pro-medium {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
-
 .be-vietnam-pro-semibold {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
-
 .be-vietnam-pro-bold {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
-
-
-
 @media(min-width:300px) {
   .d-md-none {
     display: none;
@@ -104,29 +86,23 @@ input {
 .slick-prev:before, .slick-next:before{
    color:#3B3B3F  !important;
    font-size: 37px;
-
 }
 .text-green {
   color: #8b8123;
 }
-
 .align-start {
   text-align: start;
 }
-
 .bg-grad {
   background-image: linear-gradient();
 }
 .bg-purple{
-  /* background-color: #EFEBFF !important; */
   background-image: linear-gradient(#f6f4ff,#F5F3FF,#EFEBFF) !important;
 }
 .nav {
   flex-direction: column;
   align-items: center;
 }
-
-/* For large screens (lg: ≥992px), use flex-row */
 @media (min-width: 992px) {
   .nav {
     flex-direction: row !important;
@@ -150,5 +126,17 @@ input {
     position: relative;
     right: 0;
     left: 40%;
-   
+}
+.btn-cent{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.dotted-underline{
+     text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.ri-crosshair-2-fill{
+    color: #6b46ff;
+    font-size: 20px;
 }

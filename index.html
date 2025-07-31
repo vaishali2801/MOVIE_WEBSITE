@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,52 +18,227 @@
         href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Borel&family=Bree+Serif&family=Dancing+Script:wght@400..700&family=Flamenco:wght@300;400&family=Geologica:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Righteous&display=swap"
         rel="stylesheet">
 </head>
-
 <body class="bg-purple">
     <!--====================================================== offcanvas =================================================== -->
     <section>
         <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="card">
-                        <img src="./img/bg1.avif" class="card-img-top p-0 m-0 pb-3" alt="...">
-                        <div class="card-body text-center p-5 px-4">
-                            <h4 class="card-title be-vietnam-pro-bold">Enter your mobile number</h4>
-                            <p class="card-text">If you don't have an account yet, we'll create one for you</p>
+            <div class="modal-dialog modal-dialog-centered  rounded-5">
+                <div class="modal-content rounded-5 overflow-hidden w-100">
+
+                    <img src="./img/bg.avif" class=" p-0 m-0 pb-3" style="width: 100%;height: 341px;">
+                    <div class="card-body text-center p-4 px-4">
+                        <h4 class="card-title be-vietnam-pro-bold">Enter your mobile number</h4>
+                        <p class="card-text">If you don't have an account yet, we'll create one for you</p>
+                        <form action="">
                             <div class="d-flex justify-content-center gap-2">
                                 <select class="form-select" aria-label="Default select example"
-                                    style="height: 41px;width: 110px;">
+                                    style="height: 40px;width: 120px;">
                                     <option selected>india +91</option>
                                     <option value="1">UAE +971</option>
                                     <option value="2">Australia +61</option>
                                     <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
-                                    <option value="3">Austria +43</option>
+                                    <option value="3">Bahrain +973</option>
+                                    <option value="3">Bangladesh +880</option>
+                                    <option value="3">Belgium +32</option>
+                                    <option value="3">Bhutan +975</option>
+                                    <option value="3">Brasil +55</option>
+                                    <option value="3">Canada +1</option>
+                                    <option value="3">Denmark +45</option>
+                                    <option value="3">Egypt +20</option>
+                                    <option value="3">Finland +358</option>
+                                    <option value="3">France +33</option>
+                                    <option value="3">Germany +49</option>
+                                    <option value="3">Ireland +353</option>
+                                    <option value="3">Italy +39</option>
+                                    <option value="3">Indonesia +62</option>
+                                    <option value="3">Japan +81</option>
+                                    <option value="3">Kazakhstan +7</option>
+                                    <option value="3">Kuwait +965</option>
+                                    <option value="3">Lebanon +961</option>
+                                    <option value="3">Malaysia +60</option>
+                                    <option value="3">Mexico +52</option>
+                                    <option value="3">Nepal +977</option>
+                                    <option value="3">Netherlands +31</option>
+                                    <option value="3">New Zealand +64</option>
+                                    <option value="3">Norway +47</option>
+                                    <option value="3">Oman +968</option>
+                                    <option value="3">Philippines +63</option>
+                                    <option value="3">Qatar +974</option>
+                                    <option value="3">Saudi Arabia +966</option>
+                                    <option value="3">Singapore +65</option>
+                                    <option value="3">South Africa +27</option>
+                                    <option value="3">South Korea +82</option>
+                                    <option value="3">Spain +34</option>
+                                    <option value="3">Sri Lanka +94</option>
+                                    <option value="3">Sweden +46</option>
+                                    <option value="3">Switzerland +41</option>
+                                    <option value="3">Thailand +66</option>
+                                    <option value="3">Turkey +90</option>
+                                    <option value="3">United Kingdom +44</option>
                                 </select>
-                                 <input type="text" class="form-control" style="width: 65%;" placeholder="Enter Mobile Number" aria-label="Username" aria-describedby="basic-addon1"></div>
+                                <input type="text" class="form-control" style="width: 65%;"
+                                    placeholder="Enter Mobile Number" aria-label="Username"
+                                    aria-describedby="basic-addon1">
                             </div>
-                            <a href="#">
-                                <div class="btn bg-dark text-light" style="width: 85%;">
-                                    Continue
-                                </div>
-                            </a>
-                        </div>
                     </div>
+                    <a href="#" class="btn-cent mb-3">
+                        <div class="btn bg-dark text-light" type="submit" style="width: 85%;">
+                            Continue
+                        </div>
+                    </a>
+                    <p class="fs-8 text-gray text-center be-vietnam-pro-regular">By continuing, you agree to our</p>
+                    <div class="d-flex justify-content-center mb-5">
+                        <p class="fs-8 text-gray text-center be-vietnam-pro-regular dotted-underline">Terms of Service
+                        </p>&nbsp;&nbsp;&nbsp;
+                        <p class="fs-8 text-gray text-center be-vietnam-pro-regular dotted-underline">Privacy Policy
+                        </p>
+                    </div>
+                    </form>
                 </div>
             </div>
         </div>
+        </div>
     </section>
+    <!-- ======================================================offcanvas2  =====================================================-->
+    <section>
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered  rounded-5">
+                <div class="modal-content rounded-5  p-3 w-100">
+                   <div class="modal-body">
+                     <label for="" class="fs-6 fw-bold be-vietnam-pro-regular pb-2">Select Location</label>
+                    <input type="text" class="form-control mb-3" placeholder="Enter Mobile Number" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <div class="d-flex gap-2 pb-3">
+                        <i class="ri-crosshair-2-fill"></i>
+                        <p class="fs-6 fw-bold be-vietnam-pro-light pt-1">&nbsp;Use Current Location</p>
+                    </div>
+                    <p class="fs-7 fw-bold be-vietnam-pro-light pt-1">&nbsp;Popular Cities</p>
+                    <div class="d-flex gap-2 flex-wrap">
+                           <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a1.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a2.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a3.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a4.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a5.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a6.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a7.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a8.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a9.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    <div class="box1 rounded-5 bg-purple" style="width: 105px; height: 105px;">
+                        <img src="./img/a10.avif" style="width: 102px; height: 102px;">
+                    </div>
+                    </div>
+                     <p class="fs-6 fw-bold be-vietnam-pro-light pt-1">All Cities</p>
+                     <div class="d-flex gap-2">
+                        <p class="fs-6 text-gray">A</p>
+                        <p class="fs-6 text-gray">B</p>
+                        <p class="fs-6 text-gray">C</p>
+                        <p class="fs-6 text-gray">D</p>
+                        <p class="fs-6 text-gray">E</p>
+                        <p class="fs-6 text-gray">F</p>
+                        <p class="fs-6 text-gray">G</p>
+                        <p class="fs-6 text-gray">H</p>
+                        <p class="fs-6 text-gray">I</p>
+                        <p class="fs-6 text-gray">J</p>
+                        <p class="fs-6 text-gray">K</p>
+                        <p class="fs-6 text-gray">L</p>
+                        <p class="fs-6 text-gray">M</p>
+                        <p class="fs-6 text-gray">N</p>
+                        <p class="fs-6 text-gray">O</p>
+                        <p class="fs-6 text-gray">P</p>
+                        <p class="fs-6 text-gray">Q</p>
+                        <p class="fs-6 text-gray">R</p>
+                        <p class="fs-6 text-gray">S</p>
+                        <p class="fs-6 text-gray">T</p>
+                        <p class="fs-6 text-gray">U</p>
+                        <p class="fs-6 text-gray">V</p>
+                        <p class="fs-6 text-gray">W</p>
+                        <p class="fs-6 text-gray">X</p>
+                        <p class="fs-6 text-gray">Y</p>
+                        <p class="fs-6 text-gray">Z</p>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-3">
+                            <div class="box">
+                                <p class="fs-7 text-gray fw-bold mb-2">Abohar</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Addanki</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Adoor</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Ahmednagar</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Akola</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Alappuzha</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amalapuram</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amballur</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Ambur</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amritsar</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="box">
+                                <p class="fs-7 text-gray fw-bold mb-2">Abohar</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Addanki</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Adoor</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Ahmednagar</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Akola</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Alappuzha</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amalapuram</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amballur</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Ambur</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amritsar</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="box">
+                                <p class="fs-7 text-gray fw-bold mb-2">Abohar</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Addanki</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Adoor</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Ahmednagar</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Akola</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Alappuzha</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amalapuram</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amballur</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Ambur</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amritsar</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="box">
+                                <p class="fs-7 text-gray fw-bold mb-2">Abohar</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Addanki</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Adoor</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Ahmednagar</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Akola</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Alappuzha</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amalapuram</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amballur</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Ambur</p>
+                                <p class="fs-7 text-gray fw-bold mb-2">Amritsar</p>
+                            </div>
+                        </div>
+                     </div>
+                   </div>
+                </div>
 
+            </div>
+        </div>
+        </div>
+    </section>
     <!-- =================================================== navbar section ================================================ -->
     <section>
         <nav class="navbar navbar-expand-lg border border-end-0 bg-light">
@@ -72,8 +246,9 @@
                 <div class="navbar-brand d-flex align-items-center" href="#">
                     <div class="d-md-none d-lg-block"> <img src="./img/logo-1.png" class="img-fluid"
                             style="height: 44px;"> &nbsp;|</div>
-                    <a href="" class="nav-link">
-                        <div class="btn  d-flex justify-content-between align-items-center p-0 hover-1">
+                    <a href="#" class="nav-link">
+                        <div class="btn  d-flex justify-content-between align-items-center p-0 hover-1"
+                            data-bs-toggle="modal" data-bs-target="#modal2" type="button">
                             <div class="logo">
                                 <i class="ri-map-pin-line p-1"></i>
                             </div>
@@ -89,30 +264,29 @@
                     <ul class="navbar-nav d-md-flex flex-row justify-content-between  mb-2 mb-lg-2"
                         style="margin: auto;">
                         <li class="nav-item">
-
                             <a class="nav-link active " aria-current="page" href="#">
-                                <div class="btn fw-bold  border-0 rounded-4 ">
+                                <div class="btn fw-bold  border-0 rounded-4 btn-h">
                                     <div class="be-vietnam-pro-semibold"> For you</div>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="" class="nav-link mb-3">
-                                <div class="btn fw-bold border-0 rounded-4  ">
+                                <div class="btn fw-bold border-0 rounded-4  btn-h">
                                     <div class="be-vietnam-pro-semibold"> Dining</div>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="" class="nav-link mb-3">
-                                <div class="btn fw-bold border-0 rounded-4  ">
+                                <div class="btn fw-bold border-0 rounded-4  btn-h">
                                     <div class="be-vietnam-pro-semibold">Events</div>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="" class="nav-link mb-3">
-                                <div class="btn fw-bold border-0 rounded-4 ">
+                                <div class="btn fw-bold border-0 rounded-4 btn-h">
                                     <div class="be-vietnam-pro-semibold"> Movies</div>
                                 </div>
                             </a>
@@ -126,10 +300,6 @@
                                 placeholder="Search for events, movies and restaurants" aria-label="Username"
                                 aria-describedby="basic-addon1">
                         </div>
-                        <!-- <button  data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvas" aria-controls="offcanvasExample" role="button">
-                          
-                        </button> -->
                         <button data-bs-toggle="modal" data-bs-target="#modal1" type="button"
                             class="btn bg-gray rounded-circle" style="width: 42px;height: 42px;">
                             <i class="ri-user-line"></i>
@@ -1135,11 +1305,9 @@
             </div>
         </div>
     </footer>
-
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
 <script>
     $('.responsive').slick({
         speed: 400,
@@ -1214,5 +1382,4 @@
         ]
     });
 </script>
-
 </html>
